@@ -17,9 +17,7 @@ const Header = () => {
       <S.ProfileImage>
         <S.Logo>
           <img src="https://avatars.githubusercontent.com/u/102111932?v=4" alt="Thailan Ribeiro" />
-          <S.ProfileName>
-            Thailan Ribeiro
-          </S.ProfileName>
+          
         </S.Logo>
       </S.ProfileImage>
     </S.Wrapper>

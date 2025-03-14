@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import bg from "../../assets/pnewground.png";
+import bg from "../../assets/code.jpeg";
 
 
 export const Wrapper = styled.div`
@@ -52,7 +52,7 @@ export const ProfileImage = styled.section`
   gap: 25px;
   
   background-image: url(${bg});
-  filter: opacity(.9);
+  filter: opacity(100%);
   background-color: #111111;
   background-position: 50% 50%;
   background-size: cover;
@@ -60,6 +60,7 @@ export const ProfileImage = styled.section`
   height: 60vh;
   width: 100vw;
   background-attachment: normal;
+  backdrop-filter: brightness(0.9);
 `;
 
 
@@ -77,7 +78,7 @@ export const Logo = styled.div`
 
 `;
 
-export const ProfileName = styled.h1`
+/*export const ProfileName = styled.h1`
   color: white;
   font-size: 2em;
   font-family: 'Playfair Display', sans-serif;
@@ -85,7 +86,7 @@ export const ProfileName = styled.h1`
   font-size: 4rem;
   font-weight: 700;
   line-height: 1.2;
-`;
+`;*/
 
 
 
