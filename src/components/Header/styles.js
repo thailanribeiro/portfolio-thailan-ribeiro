@@ -78,15 +78,5 @@ export const Logo = styled.div`
 
 `;
 
-/*export const ProfileName = styled.h1`
-  color: white;
-  font-size: 2em;
-  font-family: 'Playfair Display', sans-serif;
-  color: white;
-  font-size: 4rem;
-  font-weight: 700;
-  line-height: 1.2;
-`;*/
-
 
 
